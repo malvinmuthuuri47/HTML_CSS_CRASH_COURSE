@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Styling</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            border-radius: 5px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        body {
+            background: #1e0786d2;
+        }
+
+        .main {
+            width: 100%;
+        }
+
+        .signupform {
+            background: white;
+            max-width: 450px;
+            padding: 20px 0;
+            max-height: fit-content;
+            margin: auto;
+        }
+
+        .signupform p {
+            text-align: center;
+        }
+
+        .signupform button {
+            display: block;
+            background-color: #1e0786d2;
+            font-size: 20;
+            padding: 8px;
+            cursor: pointer;
+            color: white;
+            margin: 15px auto;
+            width: 45%;
+        }
+
+        #Signupbanner {
+            font-size: 32px;
+            margin: 5px 0px;
+            padding: 5px 0px;
+        }
+
+        label {
+            display: block;
+            margin: 0px 15%;
+            line-height: 1.8em;
+        }
+
+        input {
+            margin: 0px 15%;
+            width: 70%;
+            height: 32px;
+        }
+
+        .signupform a {
+            text-decoration: none;
+        }
+        
+        .signupform a:hover {
+            color: rgb(20, 5, 233);
+        }
+
+        #loginform {
+            max-width: 450px;
+            margin: auto;
+            color: white;
+        }
+
+        #loginform a {
+            color: #2ff739fa;
+            text-decoration: none;
+        }
+
+        #loginform a:hover {
+            color: #f3ef0bd2;
+        }
+
+        #loginform p {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div id="main">
+        <div class="signupform">
+            <p id="Signupbanner">Sign Up</p>
+            <p>It's free and only takes a minute</p>
+
+            <label for="#">First Name</label>
+            <input type="text">
+
+            <!-- <br> -->
+            <label for="#">Last Name</label>
+            <input type="text">
+
+            <!-- <br> -->
+            <label for="#">Email</label>
+            <input type="email" name="" id="">
+
+            <!-- <br> -->
+            <label for="#">Password</label>
+            <input type="password" name="" id="">
+
+            <!-- <br> -->
+            <label for="#">Confirm Password</label>
+            <input type="password" name="" id="">
+
+            <!-- <br> -->
+            <button type="button">Sign Up</button>
+
+            <!-- <br> -->
+            <p>By clicking the Sign Up button, you agree to our <a href="#">Terms and Conditions</a> and <a href="#">Privacy Policy</a></p>
+        </div>
+
+        <div id="loginform">
+            <p>Already have an account? <a href="#">Login Here</a></p>
+        </div>
+    </div>
+</body>
+</html>
